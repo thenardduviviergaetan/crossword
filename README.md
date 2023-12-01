@@ -12,8 +12,6 @@
   <img src="https://img.shields.io/badge/js-v16.20.2-3e22dd?style=flat" alt="js" />
 </p>
 
-<hr> -->
-
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;

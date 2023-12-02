@@ -37,4 +37,15 @@ function testVertical(co,plateau,str) {
     return true;
 }
 
-module.exports = {testHorizontal,testVertical,Blackcase}
+function checkList(list) {
+    for (let index = 0;index<len(list);index++){
+        for (let index2 = 0;index2<len(list);index2++){
+            if (index != index2 && list[index] == list[index2]){
+                return true
+            }
+        }
+    }
+    return false
+}
+
+module.exports = {testHorizontal,testVertical,checkList,Blackcase}
